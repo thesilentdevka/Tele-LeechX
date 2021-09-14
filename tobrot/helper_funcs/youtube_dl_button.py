@@ -79,7 +79,7 @@ async def youtube_dl_call_back(bot, update):
     # https://superuser.com/a/994060
     LOGGER.info(custom_file_name)
     #
-    await update.message.edit_caption(caption="**Trying To Download.... Please wait..**")
+    await update.message.edit_caption(caption="**Trying To Download.... Please wait.. BOT BY @theslintninja**")
 
     tmp_directory_for_each_user = os.path.join(
         DOWNLOAD_LOCATION, str(update.message.message_id)
